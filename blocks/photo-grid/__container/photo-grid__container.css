@@ -1,0 +1,10 @@
+.photo-grid__container {
+  padding:  0 48px;
+
+}
+@media screen and (max-width: 768px) {
+  .photo-grid__container   {
+    padding:  0 calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+
