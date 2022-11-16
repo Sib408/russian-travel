@@ -1,15 +1,15 @@
-.cover__container {
+.cover {
   padding-bottom: 92px;
 }
 
 @media screen and (max-width: 768px ) {
-  .cover__container {
+  .cover {
     padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px ) {
-  .cover__container {
+  .cover {
     padding-bottom: 64px;
   }
 }
