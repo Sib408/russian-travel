@@ -7,10 +7,7 @@
   max-width: 1184px;
   min-height: 740px;
   margin: 0 auto;
-  background-image: url(../../../image/cover__background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: no-repeat center / cover url(../../../image/cover__background.jpg);
   color: #fff;
   text-decoration: none;
   box-sizing: border-box;
