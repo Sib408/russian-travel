@@ -4,8 +4,8 @@
   grid-template-rows: max-content;
   grid-gap: 48px 16px;
   grid-template-areas:
-            "title website"
-            "image paragraphs";
+    "title website"
+    "image paragraphs";
 }
 
 .place:not(:first-child) {
@@ -15,9 +15,10 @@
 
 @media screen and (max-width: 768px) {
   .place {
-  grid-template-columns: 47.2% 48.8%;
-  grid-gap: 48px 28px;
+    grid-template-columns: 47.2% 48.8%;
+    grid-gap: 48px 28px;
   }
+
   .place:not(:first-child) {
     margin-top: 72px;
   }
@@ -27,14 +28,12 @@
   .place {
     grid-template-columns: 1fr;
     grid-template-areas:
-              "title"
-              "website"
-              "image"
-              "paragraphs";
+      "title"
+      "website"
+      "image"
+      "paragraphs";
     grid-gap: 35px 0;
   }
-
-
 }
 
 @media screen and (max-width: 320px) {

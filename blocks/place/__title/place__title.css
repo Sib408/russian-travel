@@ -19,7 +19,7 @@
   .place__title {
     max-width: 330px;
     font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
-    line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (1024 - 320)));
+    line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (768 - 320)));
 
   }
 }
