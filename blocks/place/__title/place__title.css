@@ -17,17 +17,23 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-   max-width: 330px;
-   font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
-   line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (1024 - 320)));
+    max-width: 330px;
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (1024 - 320)));
 
   }
 }
 
+@media screen and (max-width: 576px) {
+  .place__title {
+    padding: 0 24px;
+  }
+
+}
 
 @media screen and (max-width: 320px) {
-  .place__title  {
+  .place__title {
     line-height: 35px;
-    margin: 0 16px;
+    padding: 0 16px;
   }
 }
