@@ -9,7 +9,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 518px) {
   .footer__links  {
     flex-direction: column;
     gap: 32px;
